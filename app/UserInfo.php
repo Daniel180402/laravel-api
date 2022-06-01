@@ -1,12 +1,13 @@
 <?php
 
-namespace App\Model;
+namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Post extends Model
+class UserInfo extends Model
 {
-    public function user(){
+    //tabella dipendente
+    public function user() {
         return $this->belongsTo('App\User');
     }
 }

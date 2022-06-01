@@ -53648,18 +53648,18 @@ Vue.component("example-component", __webpack_require__(/*! ./components/ExampleC
 var app = new Vue({
   el: "#app"
 });
-var blackHole = document.querySelectorAll(".blackhole");
-blackHole.forEach(function (singleForm) {
-  singleForm.addEventListener("submit", function (event) {
-    event.preventDefault(); //acchiappo l'invio del form
-
-    userConfirm = window.confirm("Are You Sure To Delate ".concat(this.getAttribute("post-title")));
-
-    if (userConfirm) {
-      this.submit();
-    }
-  });
-});
+/* const blackHole = document.querySelectorAll(".blackhole");
+blackHole.forEach((singleForm) => {
+    singleForm.addEventListener("submit", function (event) {
+        event.preventDefault(); //acchiappo l'invio del form
+        userConfirm = window.confirm(
+            `Are You Sure To Delate ${this.getAttribute("post-title")}`
+        );
+        if (userConfirm) {
+            this.submit();
+        }
+    });
+}); */
 
 /***/ }),
 
@@ -53795,8 +53795,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\gerol\MantuRed\boolean_class_55\exercises\laravel-many-to-many\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\gerol\MantuRed\boolean_class_55\exercises\laravel-many-to-many\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\danie\Desktop\Boolean\PHP\laravel-api\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\danie\Desktop\Boolean\PHP\laravel-api\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
